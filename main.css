@@ -909,7 +909,7 @@ nav {
 
 .logo {
     display: flex;
-    width: 100%;
+    width: 80%;
 }
 
 .right-nav {
@@ -922,7 +922,7 @@ nav {
 .right-nav a {
     display: flex;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
     color: hsl(0, 0%, 40%);
     font-family: 'Open Sans';
     font-weight: 400;
@@ -1039,6 +1039,9 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
 }
 
 .left-container1 h1 {
@@ -1112,6 +1115,8 @@ hr {
     padding: 20px;
     width: 280px;
     height: 200px;
+    align-self: center;
+    justify-self: center;
 }
 
 .ceo img {
