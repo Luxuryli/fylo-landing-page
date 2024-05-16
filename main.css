@@ -215,11 +215,19 @@ main {
     margin: 10px 0px; 
 }
 
+.arrow {
+    display: flex;
+
+}
+
 .arrow a {
     display: flex;
     color:hsl(170, 45%, 43%);
     font-family: 'Open Sans';
     text-decoration: none;
+    border-bottom-color: hsl(170, 45%, 43%);
+    border-bottom: solid 1px;
+
 }
 
 .arrow img {
@@ -227,11 +235,12 @@ main {
     width: 20px;
 }
 
-hr {
-    width: 160px;
-    border-color: hsl(170, 45%, 43%);
-    margin-top: 3px;
+
+
+.arrow a:hover {
+    color:hsl(170, 69%, 71%);
 }
+
 
 .ceo {
     display: flex;
@@ -691,12 +700,19 @@ main {
     margin: 10px 0px; 
 }
 
+.arrow {
+    display: flex;
+    margin-top: 10px;
+}
+
 .arrow a {
     display: flex;
     color:hsl(170, 45%, 43%);
     font-family: 'Open Sans';
     text-decoration: none;
-    font-size: 12px;
+    border-bottom-color: hsl(170, 45%, 43%);
+    border-bottom: solid 1px;
+
 }
 
 .arrow img {
@@ -704,11 +720,15 @@ main {
     width: 20px;
 }
 
-hr {
-    width: 125px;
-    border-color: hsl(170, 45%, 43%);
-    margin-top: 3px;
+.arrow:hover {
+    color:hsl(170, 69%, 71%);
 }
+
+.arrow a:hover {
+    color:hsl(170, 69%, 71%);
+}
+
+
 
 .ceo {
     display: flex;
@@ -1191,24 +1211,26 @@ main {
     color:hsl(170, 45%, 43%);
     font-family: 'Open Sans';
     text-decoration: none;
-    font-size: 12px;
-    text-align: center;
+    border-bottom-color: hsl(170, 45%, 43%);
+    border-bottom: solid 1px;
+
 }
 
 .arrow img {
     display: flex;
     width: 20px;
-    justify-content: center;
 }
 
-hr {
-    width: 125px;
-    border-color: hsl(170, 45%, 43%);
-    margin-top: 3px;
-    display: flex;
-    justify-self: center;
-    align-self: center;
+.arrow:hover {
+    color:hsl(170, 69%, 71%);
 }
+
+.arrow a:hover {
+    color:hsl(170, 69%, 71%);
+}
+
+
+
 
 .ceo {
     display: flex;
